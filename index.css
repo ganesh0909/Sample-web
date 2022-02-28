@@ -1,0 +1,98 @@
+body{
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_960_720.jpg");
+    background-size:3000px 2000px;
+    background-repeat: no-repeat;
+   
+}
+.logoinfo img{
+    padding-left: 30px;
+}
+.logoinfo h3{
+    position: relative;
+    color:white;
+    bottom:15px;
+    padding-left:10px;
+    
+}
+.navbar{
+    position: relative;
+    left:310px;
+    bottom:50px;
+    text-decoration: none;
+    list-style:none;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    float:left;
+    padding:0px 50px;
+}
+.buttons{
+    position:relative;
+    float:right;
+    right:30px;
+    bottom:50px;
+}
+.button1{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    right:40px;
+    width: 110px;
+    text-align: center;
+    cursor: pointer;
+}
+.button2{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width:110px;
+    text-align:center;
+    cursor:pointer;
+}
+.buttons .button1:hover,.buttons .button2:hover{
+    background-color: lightcyan;
+    border-color:darkred;
+    color:black;
+}
+.form1{
+    position: relative;
+    border-radius: 10px;
+    top:100px;
+    left:60px;
+    height: 300px;
+    width:500px;
+    border-style: solid;
+    border-color:white;
+    padding: 40px 60px;
+
+}
+.forms
+{
+    text-align: center;
+}
+.form1 p{
+    font-size: 20px;
+    color: white;
+}
+.form1 li{
+    list-style: none;
+    padding:10px 0px;
+}
+.value1{
+    width:300px;
+}
+.value2{
+    width:300px;
+    text-align: center;
+    cursor: pointer;
+}
+.forms .value2:hover{
+    color:darkred;
+    font-weight: 600;
+    background-color: burlywood;
+}
